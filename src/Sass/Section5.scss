@@ -1,0 +1,17 @@
+.media-bg{
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.media{
+    width: 34%;
+    position: absolute;
+    transform: translate(-200%,100%);
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 12%;
+    }
+}
