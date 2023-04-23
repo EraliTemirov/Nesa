@@ -8,6 +8,8 @@ import Section4 from '../Components_Home/Section4';
 import Section5 from '../Components_Home/Section5';
 import Section6 from '../Components_Home/Section6';
 import Section7 from '../Components_Home/Section7';
+import Section8 from '../Components_Home/Section8';
+import Footer from '../Components_Home/Footer';
 
 const Home = () => {
   return (
@@ -25,6 +27,8 @@ const Home = () => {
         <Section5/>
         <Section6/>
         <Section7/>
+        <Section8/>
+        <Footer/>
       </div>
       Salom
      
