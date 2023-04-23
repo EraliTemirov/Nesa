@@ -6,6 +6,8 @@ import Section2 from '../Components_Home/Section2';
 import Section3 from '../Components_Home/Section3';
 import Section4 from '../Components_Home/Section4';
 import Section5 from '../Components_Home/Section5';
+import Section6 from '../Components_Home/Section6';
+import Section7 from '../Components_Home/Section7';
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
         <Section3/>
         <Section4/>
         <Section5/>
+        <Section6/>
+        <Section7/>
       </div>
       Salom
      
