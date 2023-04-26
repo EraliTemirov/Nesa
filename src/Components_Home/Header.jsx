@@ -8,7 +8,7 @@ const Header = () => {
      <div className='w-75 d-flex justify-content-between'>
      <img src={Logo} alt="Logo"  />
       <span className='text-light fs-5'> <Link to={"/"}>Home</Link> </span>
-      <span className='text-light fs-5'>Pricing</span>
+      <span className='text-light fs-5'><Link to={"/pricing"}>Pricing</Link></span>
       <span className='text-light fs-5'> <Link to={"/about"}>About</Link> </span>
       <span className='text-light fs-5'>Blog</span>
       <span className='text-light fs-5'><Link to={"/contact"}>Contact</Link></span>

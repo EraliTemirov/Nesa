@@ -9,7 +9,7 @@ import linkidin from "../Images/Vector (4).png";
 
 const Sectioncontact1 = () => {
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5  d-flex gap-5'>
       <div className='w-50'>
         <div className='p-4'>
             <h1 className='text-light fs-1'>Get in touch with our team today.</h1>
@@ -35,9 +35,37 @@ const Sectioncontact1 = () => {
         
       </div>
      
-      <div>
-        
-      </div>
+      <div className='w-50 bg-light p-3 border border-primary rounded-4 mb-5'>
+        <h3 className='text-center p-3 fs-2 '>Get in touch with us</h3>
+         <div className='d-flex gap-3'>
+         <div className='w-50'>
+            <span className='fs-4'>First Name *</span>
+            <input type="text" className='form-control'/>
+         </div>
+         <div className='w-50'>
+            <span className='fs-4'>First Name *</span>
+            <input type="text" className='form-control' />
+         </div>
+         </div>
+         
+         <div className='p-1 mt-5 '>
+            <span className='fs-4'>Work Mail *</span>
+            <input type="text" className='form-control mt-3 ' />
+         </div>
+         <div className='p-1 mt-5 '>
+            <span className='fs-4'>Phone Number *</span>
+            <input type="number" className='form-control mt-3 ' />
+         </div>
+         <div className='p-1 mt-5 '>
+            <span className='fs-4'>Message</span>
+            <textarea className='form-control'></textarea>
+         </div>
+         <div className='d-flex m-3'>
+            <input type="checkbox"  />
+            <p className='p-3'>By clicking submit below, you consent to Justuno storing and processing the personal information submitted to provide the content requested.</p>
+         </div>
+         <button className='btn btn-primary fs-5 m-3'>Submit</button>
+          </div>
 
     </div>
   )
