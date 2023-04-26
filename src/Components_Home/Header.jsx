@@ -11,7 +11,7 @@ const Header = () => {
       <span className='text-light fs-5'>Pricing</span>
       <span className='text-light fs-5'> <Link to={"/about"}>About</Link> </span>
       <span className='text-light fs-5'>Blog</span>
-      <span className='text-light fs-5'>Contact</span>
+      <span className='text-light fs-5'><Link to={"/contact"}>Contact</Link></span>
      </div>
       <div>
       <span className='text-light m-3'>Login</span>

@@ -18,38 +18,42 @@ const Sectionabout4 = () => {
            <img src={chapaqay} alt="atribut" />
             <h4>1. TITLE HERE</h4>
            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.</p>
+            <p className='mt-5 p-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.</p>
             <div>
-                <img src={aylana} alt="rasm" />
+                <img src={aylana} alt="rasm" className='d-block d-fl' />
                 <span>Alix Mex</span>
                 <p>Ceo/Deriction</p>
             </div>
         </div>
-        <div className='w-25'>
-           <div className='d-flex'>
+        <div className='w-25 text-center'>
+           <div className='d-flex qoshimcha'>
            <img src={chapaqay} alt="atribut" />
             <h4>1. TITLE HERE</h4>
            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.</p>
+            <p className='mt-5 p-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.</p>
             <div>
-                <img src={aylana} alt="rasm" />
+                <img src={aylana} alt="rasm" className='d-block d-fl' />
                 <span>Alix Mex</span>
                 <p>Ceo/Deriction</p>
             </div>
         </div>
-        <div className='w-25'>
-           <div className='d-flex'>
+        <div className='w-25 text-center'>
+           <div className='d-flex qoshimcha'>
            <img src={chapaqay} alt="atribut" />
             <h4>1. TITLE HERE</h4>
            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.</p>
-            <div>
-                <img src={aylana} alt="rasm" />
+            <p className='mt-5 p-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium consectetur egestas.</p>
+            <div className='d-f '>
+                <img src={aylana} alt="rasm"  className='d-block d-fl'/>
                 <span>Alix Mex</span>
                 <p>Ceo/Deriction</p>
             </div>
         </div>
       </div>
+         <div className='mt-5 text-center  '>
+         <i class="fa-solid fa-left-long p-5 fs-1"></i>
+         <i class="fa-solid fa-right-long p-5 fs-1"></i>
+         </div>
     </div>
   )
 }
