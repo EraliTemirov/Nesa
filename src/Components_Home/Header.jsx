@@ -10,7 +10,7 @@ const Header = () => {
       <span className='text-light fs-5'> <Link to={"/"}>Home</Link> </span>
       <span className='text-light fs-5'><Link to={"/pricing"}>Pricing</Link></span>
       <span className='text-light fs-5'> <Link to={"/about"}>About</Link> </span>
-      <span className='text-light fs-5'>Blog</span>
+      <span className='text-light fs-5'><Link to={"/blog"}>Blog</Link></span>
       <span className='text-light fs-5'><Link to={"/contact"}>Contact</Link></span>
      </div>
       <div>
